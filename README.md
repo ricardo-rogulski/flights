@@ -5,8 +5,8 @@ Escopo desse projeto:
 Aplicação Spring + JPA que disponibiliza um serviço REST para consulta e criação de vôos de uma empresa aérea.
 
 Pré-requisitos para rodar este projeto, você vai precisar de:
--> Java 1.8 instalado e configurado;
--> MySQL instalado e configurado.
+- Java 1.8 instalado e configurado;
+- MySQL instalado e configurado.
 
 Passo 1: Crie uma nova pasta e clone o projeto dentro dela;
 Passo 2: Importe o projeto no Eclipse como um projeto Maven. Aguarde o Maven baixar todas as dependências;
@@ -44,7 +44,7 @@ Passo 5: No MySQL, execute os scripts abaixo para criar alguns dados iniciais na
  
 
 Passo 7: Com a ferramenta POSTMAN você já pode verificar o serviço em funcionamento. 
-	-> Tente acessar a url http://localhost:8080/flight com o método GET e verá os vôos cadastrados.
+- Tente acessar a url http://localhost:8080/flight com o método GET e verá os vôos cadastrados.
 
 Agora vá siga as instruções do projeto flights-frontend para rodar a view do projeto :)
 
