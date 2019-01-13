@@ -1,26 +1,26 @@
 # flights
 Teste para Atech. Aplicação para exibição dos vôos de uma empresa aérea.
 
-##Escopo desse projeto: 
+## Escopo desse projeto: 
 Aplicação Spring + JPA que disponibiliza um serviço REST para consulta e criação de vôos de uma empresa aérea.
 
 ## Pré-requisitos:
 - Java 1.8 instalado e configurado;
 - MySQL instalado e configurado.
 
-##Passo 1: 
+## Passo 1: 
 Crie uma nova pasta e clone o projeto dentro dela;
 
-##Passo 2: 
+## Passo 2: 
 Importe o projeto no Eclipse como um projeto Maven. Aguarde o Maven baixar todas as dependências;
 
-##Passe 3: 
+## Passe 3: 
 No MySQL, crie uma nova base de dados chamada: "flight";
 
-##Passo 4: 
+## Passo 4: 
 Inicie a aplicação no Eclipse, a partir do arquivo "FlightsApplication" (esta ação irá criar as tabelas no MySQL);
 
-##Passo 5: 
+## Passo 5: 
 No MySQL, execute os scripts abaixo para criar alguns dados iniciais na aplicação:
 
 	Tabela pilot: 
@@ -52,13 +52,13 @@ No MySQL, execute os scripts abaixo para criar alguns dados iniciais na aplicaç
 		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(8, 2, 1, 7, 1, '14h50', '19h10', 'Delayed'); 
  
 
-##Passo 7: 
+## Passo 7: 
 Com a ferramenta POSTMAN você já pode verificar o serviço em funcionamento. 
 - Tente acessar a url http://localhost:8080/flight com o método GET e verá os vôos cadastrados.
 
 Agora vá siga as instruções do projeto flights-frontend para rodar a view do projeto :)
 
-##Próximos passos / evloluções desse projeto: 
+### Próximos passos / evloluções desse projeto: 
 - Implementar testes automatizados;
 - Disponibilizar os serviços REST também para as outras entidades (Pilot, Aircraft e City);
 
