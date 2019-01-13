@@ -33,14 +33,14 @@ Passo 5: No MySQL, execute os scripts abaixo para criar alguns dados iniciais na
 		insert into flight.city values(7, 'Manaus');
 
 	Tabela flight: 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(1, 2, 1, 1, 3, '11h00', '12h00', 'Onboard'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(2, 2, 1, 3, 1, '14h00', '15h00', 'Awaiting'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(3, 1, 2, 2, 4, '08h20', '10h30', 'Delayed'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(4, 1, 2, 4, 2, '15h40', '17h50', 'Awaiting'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(5, 2, 3, 5, 6, '08h10', '11h40', 'In progress'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(6, 2, 3, 6, 5, '13h20', '16h50', 'Awaiting'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(7, 2, 1, 1, 7, '07h10', '11h20', 'In progress'); 
-insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(8, 2, 1, 7, 1, '14h50', '19h10', 'Delayed'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(1, 2, 1, 1, 3, '11h00', '12h00', 'Onboard'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(2, 2, 1, 3, 1, '14h00', '15h00', 'Awaiting'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(3, 1, 2, 2, 4, '08h20', '10h30', 'Delayed'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(4, 1, 2, 4, 2, '15h40', '17h50', 'Awaiting'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(5, 2, 3, 5, 6, '08h10', '11h40', 'In progress'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(6, 2, 3, 6, 5, '13h20', '16h50', 'Awaiting'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(7, 2, 1, 1, 7, '07h10', '11h20', 'In progress'); 
+		insert into flight.flight (id, aircraft_id, pilot_id, departure_city_id, arrival_city_id, departure_time, arrival_time, status) values(8, 2, 1, 7, 1, '14h50', '19h10', 'Delayed'); 
  
 
 Passo 7: Com a ferramenta POSTMAN você já pode verificar o serviço em funcionamento. 
